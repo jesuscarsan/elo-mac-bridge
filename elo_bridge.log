@@ -1,0 +1,294 @@
+[12:24:53] App Launched. Version: 1.1
+[12:24:54] Attempting to start server on port 27345
+[12:24:54] Server listening on port 27345
+[12:24:56] Contacts Authorization: true
+[12:24:58] Photos Authorization: 3
+[12:26:17] App Launched. Version: 1.2
+[12:26:18] Photos Authorization: 3
+[12:26:18] Contacts Authorization: true
+[12:26:18] Attempting to start server on port 27345
+[12:26:18] Server listening on port 27345
+[12:26:52] New connection received
+[12:26:52] GET /contacts?query=Mary [456 bytes]
+[12:26:52] Searching contacts for: 'Mary'
+[12:26:54] Found 9 candidates
+[12:26:56] New connection received
+[12:26:56] OPTIONS /contact [480 bytes]
+[12:28:16] App Launched. Version: 1.3
+[12:28:17] Attempting to start server on port 27345
+[12:28:17] Server listening on port 27345
+[12:29:36] Contacts Authorization: true
+[12:29:38] Photos Authorization: 3
+[12:30:37] App Launched. Version: 1.4
+[12:30:38] Contacts Authorization: true
+[12:30:38] Attempting to start server on port 27345
+[12:30:38] Server listening on port 27345
+[12:31:06] New connection received
+[12:31:06] GET /contacts?query=Mary [456 bytes]
+[12:31:06] Searching contacts for: 'Mary'
+[12:31:07] Found 9 candidates
+[12:31:09] New connection received
+[12:31:09] OPTIONS /contact [480 bytes]
+[12:31:09] Handling OPTIONS for CORS
+[12:31:09] New connection received
+[12:31:09] POST /contact [588 bytes]
+[12:31:09] Body extracted (90 chars): {"name":"(Mary) María Jose Villar Santaclara","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:31:09] Received contact update/link for: (Mary) María Jose Villar Santaclara
+[12:31:27] App Launched. Version: 1.4
+[12:31:28] Photos Authorization: 3
+[12:31:28] Contacts Authorization: true
+[12:31:28] Attempting to start server on port 27345
+[12:31:28] Server listening on port 27345
+[12:31:35] New connection received
+[12:31:35] GET /contacts?query=Mary [456 bytes]
+[12:31:35] Searching contacts for: 'Mary'
+[12:31:37] Found 9 candidates
+[12:31:39] New connection received
+[12:31:39] OPTIONS /contact [480 bytes]
+[12:31:39] Handling OPTIONS for CORS
+[12:31:39] New connection received
+[12:31:39] POST /contact [588 bytes]
+[12:31:39] Body extracted (90 chars): {"name":"(Mary) María Jose Villar Santaclara","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:31:39] Received contact update/link for: (Mary) María Jose Villar Santaclara
+[12:33:28] App Launched. Version: 1.5
+[12:33:29] Attempting to start server on port 27345
+[12:33:29] Server listening on port 27345
+[12:34:13] Contacts Authorization: true
+[12:34:15] Photos Authorization: 3
+[12:35:01] New connection received
+[12:35:01] GET /contacts?query=Mary [456 bytes]
+[12:35:01] Searching contacts for: 'Mary'
+[12:35:03] Found 9 candidates
+[12:35:04] New connection received
+[12:35:04] OPTIONS /contact [480 bytes]
+[12:35:04] Handling OPTIONS for CORS
+[12:35:04] New connection received
+[12:35:04] POST /contact [588 bytes]
+[12:35:04] Body extracted (90 chars): {"name":"(Mary) María Jose Villar Santaclara","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:35:04] Received contact update/link for: (Mary) María Jose Villar Santaclara
+[12:35:04] Success: B502597B-D79B-4096-8D09-7642C7CA2897
+[12:41:55] App Launched. Version: 1.6
+[12:41:56] Attempting to start server on port 27345
+[12:41:56] Server listening on port 27345
+[12:52:08] Photos Authorization: 3
+[12:52:10] Contacts Authorization: true
+[12:53:10] New connection received
+[12:53:10] OPTIONS /contact [480 bytes]
+[12:53:10] Handling OPTIONS for CORS
+[12:53:10] New connection received
+[12:53:10] POST /contact [579 bytes]
+[12:53:10] Body extracted (82 chars): {"name":"Mary","phone":"+34630864453","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:53:10] Received contact update/link for: Mary
+[12:53:10] Success: B502597B-D79B-4096-8D09-7642C7CA2897
+[12:54:33] App Launched. Version: 1.6
+[12:54:34] Contacts Authorization: true
+[12:54:34] Attempting to start server on port 27345
+[12:54:34] Server listening on port 27345
+[12:54:45] New connection received
+[12:54:45] OPTIONS /contact [480 bytes]
+[12:54:45] Handling OPTIONS for CORS
+[12:54:45] New connection received
+[12:54:45] POST /contact [579 bytes]
+[12:54:45] Body extracted (82 chars): {"name":"Mary","phone":"+34630864453","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:54:45] Received contact update/link for: Mary
+[12:54:45] Success: B502597B-D79B-4096-8D09-7642C7CA2897
+[12:56:32] New connection received
+[12:56:32] OPTIONS /contact [480 bytes]
+[12:56:32] Handling OPTIONS for CORS
+[12:56:32] New connection received
+[12:56:32] POST /contact [579 bytes]
+[12:56:32] Body extracted (82 chars): {"name":"Mary","phone":"+34630864453","id":"B502597B-D79B-4096-8D09-7642C7CA2897"}
+[12:56:32] Received contact update/link for: Mary
+[12:56:37] Success: E684CF82-C09C-46E2-BDCC-AF7C5A10F6CF:ABPerson
+[12:57:16] New connection received
+[12:57:16] OPTIONS /contact [480 bytes]
+[12:57:16] Handling OPTIONS for CORS
+[12:57:16] New connection received
+[12:57:16] POST /contact [545 bytes]
+[12:57:16] Body extracted (48 chars): {"name":"Mary","phone":"+34630864453","id":null}
+[12:57:16] Received contact update/link for: Mary
+[12:57:21] Success: E684CF82-C09C-46E2-BDCC-AF7C5A10F6CF:ABPerson
+[13:03:06] App Launched. Version: 1.7
+[13:03:08] Attempting to start server on port 27345
+[13:03:08] Server listening on port 27345
+[13:03:12] Contacts Authorization: true
+[13:03:13] Photos Authorization: 3
+[13:03:57] New connection received
+[13:03:57] OPTIONS /contact [480 bytes]
+[13:03:57] Handling OPTIONS for CORS
+[13:03:57] New connection received
+[13:03:57] POST /contact [545 bytes]
+[13:03:57] Body extracted (48 chars): {"name":"Mary","phone":"+34630864453","id":null}
+[13:03:57] Received contact update/link for: Mary
+[13:03:57] DEBUG: upsertContact called with data: ["phone": +34630864453, "id": <null>, "name": Mary]
+[13:03:57] DEBUG: Searching by Name: Mary
+[13:03:59] DEBUG: Not found by Name
+[13:03:59] DEBUG: Executing CNSaveRequest...
+[13:03:59] DEBUG: Save successful
+[13:03:59] Success: 1E492A84-1910-4B68-95C4-6D8D708B04FF:ABPerson
+[13:08:14] New connection received
+[13:08:14] OPTIONS /contact [480 bytes]
+[13:08:14] Handling OPTIONS for CORS
+[13:08:14] New connection received
+[13:08:14] POST /contact [588 bytes]
+[13:08:14] Body extracted (91 chars): {"name":"Mary","phone":"+34630864453","id":"1E492A84-1910-4B68-95C4-6D8D708B04FF:ABPerson"}
+[13:08:14] Received contact update/link for: Mary
+[13:08:14] DEBUG: upsertContact called with data: ["name": Mary, "id": 1E492A84-1910-4B68-95C4-6D8D708B04FF:ABPerson, "phone": +34630864453]
+[13:08:14] DEBUG: Searching by ID: 1E492A84-1910-4B68-95C4-6D8D708B04FF:ABPerson
+[13:08:14] DEBUG: Found by ID
+[13:08:14] DEBUG: Executing CNSaveRequest...
+[13:08:14] DEBUG: Save successful
+[13:08:14] Success: 1E492A84-1910-4B68-95C4-6D8D708B04FF:ABPerson
+[13:10:06] New connection received
+[13:10:06] GET /contacts?query=Mary [456 bytes]
+[13:10:06] Searching contacts for: 'Mary'
+[13:10:10] Found 8 candidates
+[13:10:58] New connection received
+[13:10:58] GET /contacts?query=Mary [456 bytes]
+[13:10:58] Searching contacts for: 'Mary'
+[13:11:04] Found 8 candidates
+[13:11:53] New connection received
+[13:11:53] GET /contacts?query=Mary [456 bytes]
+[13:11:53] Searching contacts for: 'Mary'
+[13:11:55] Found 8 candidates
+[13:13:17] App Launched. Version: 1.8
+[13:13:18] Attempting to start server on port 27345
+[13:13:18] Server listening on port 27345
+[13:13:21] Photos Authorization: 3
+[13:13:23] Contacts Authorization: true
+[13:13:53] New connection received
+[13:13:53] GET /contacts?query=Mary [456 bytes]
+[13:13:53] Searching contacts for: 'Mary'
+[13:13:54] DEBUG: Match found: Moisés Gramary Barbosa
+[13:13:54] DEBUG: Match found: Pontevedra-rest. Asturia Cumple 2013 38 Mary
+[13:13:54] DEBUG: Match found: Suegros - Casa Mary
+[13:13:54] DEBUG: Match found: Mary Padres
+[13:13:54] DEBUG: Match found: Mary Banda Musica Bueu
+[13:13:54] DEBUG: Match found: Repair Your Phone Pontevedra Iphone Mary
+[13:13:54] DEBUG: Match found: Trini prima mary
+[13:13:54] DEBUG: Match found: Irene Hija De Mary Luz
+[13:13:55] Found 8 candidates
+[13:15:21] App Launched. Version: 1.9
+[13:15:21] Attempting to start server on port 27345
+[13:15:21] Server listening on port 27345
+[13:15:26] Contacts Authorization: true
+[13:15:28] Photos Authorization: 3
+[13:15:58] New connection received
+[13:15:58] GET /contacts?query=Mary [456 bytes]
+[13:15:58] Searching contacts for: 'Mary'
+[13:16:00] DEBUG: Match found: Moisés Gramary Barbosa
+[13:16:00] DEBUG: Match found: Pontevedra-rest. Asturia Cumple 2013 38 Mary
+[13:16:00] DEBUG: Match found: aa Santaclara
+[13:16:00] DEBUG: Match found: Suegros - Casa Mary
+[13:16:00] DEBUG: Match found: Mary Padres
+[13:16:00] DEBUG: Match found: Mary Banda Musica Bueu
+[13:16:00] DEBUG: Match found: Repair Your Phone Pontevedra Iphone Mary
+[13:16:00] DEBUG: Match found: Trini prima mary
+[13:16:00] DEBUG: Match found: Irene Hija De Mary Luz
+[13:16:00] Found 9 candidates
+[13:16:20] New connection received
+[13:16:20] OPTIONS /contact [480 bytes]
+[13:16:20] Handling OPTIONS for CORS
+[13:16:20] New connection received
+[13:16:20] POST /contact [588 bytes]
+[13:16:20] Body extracted (91 chars): {"name":"Mary","phone":"+34630864453","id":"9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson"}
+[13:16:20] Received contact update/link for: Mary
+[13:16:20] DEBUG: upsertContact called with data: ["id": 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson, "phone": +34630864453, "name": Mary]
+[13:16:20] DEBUG: Searching by ID: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[13:16:20] DEBUG: Found by ID
+[13:16:20] DEBUG: Executing CNSaveRequest...
+[13:16:20] DEBUG: Save FAILED: Error Domain=NSCocoaErrorDomain Code=134092 "(null)" UserInfo={NSUnderlyingException=Unhandled error (NSCocoaErrorDomain, 134092) occurred during faulting and was thrown: Error Domain=NSCocoaErrorDomain Code=134092 "(null)", NSUnderlyingError=0x79feb4ed0 {Error Domain=NSCocoaErrorDomain Code=134092 "(null)"}}
+[13:16:20] Error upserting contact: The operation couldn’t be completed. (Cocoa error 134092.)
+[13:17:35] App Launched. Version: 1.10
+[13:17:36] Attempting to start server on port 27345
+[13:17:36] Server listening on port 27345
+[13:17:57] Contacts Authorization: true
+[13:18:02] Photos Authorization: 3
+[13:18:40] New connection received
+[13:18:40] GET /contacts?query=Mary [456 bytes]
+[13:18:40] Searching contacts for: 'Mary'
+[13:18:42] DEBUG: Match found: Moisés Gramary Barbosa
+[13:18:42] DEBUG: Match found: Pontevedra-rest. Asturia Cumple 2013 38 Mary
+[13:18:42] DEBUG: Match found: aa Santaclara
+[13:18:42] DEBUG: Match found: Suegros - Casa Mary
+[13:18:42] DEBUG: Match found: Mary Padres
+[13:18:42] DEBUG: Match found: Mary Banda Musica Bueu
+[13:18:42] DEBUG: Match found: Repair Your Phone Pontevedra Iphone Mary
+[13:18:42] DEBUG: Match found: Trini prima mary
+[13:18:42] DEBUG: Match found: Irene Hija De Mary Luz
+[13:18:42] Found 9 candidates
+[13:18:47] New connection received
+[13:18:47] OPTIONS /contact [480 bytes]
+[13:18:47] Handling OPTIONS for CORS
+[13:18:47] New connection received
+[13:18:47] POST /contact [588 bytes]
+[13:18:47] Body extracted (91 chars): {"name":"Mary","phone":"+34630864453","id":"9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson"}
+[13:18:47] Received contact update/link for: Mary
+[13:18:47] DEBUG: upsertContact called with data: ["id": 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson, "phone": +34630864453, "name": Mary]
+[13:18:47] DEBUG: Searching by ID: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[13:18:47] DEBUG: Found by ID
+[13:18:47] DEBUG: Executing CNSaveRequest...
+[13:18:47] DEBUG: Save FAILED: Error Domain=NSCocoaErrorDomain Code=134092 "(null)" UserInfo={NSUnderlyingException=Unhandled error (NSCocoaErrorDomain, 134092) occurred during faulting and was thrown: Error Domain=NSCocoaErrorDomain Code=134092 "(null)", NSUnderlyingError=0xb25b0bbd0 {Error Domain=NSCocoaErrorDomain Code=134092 "(null)"}}
+[13:18:47] Error upserting contact: The operation couldn’t be completed. (Cocoa error 134092.)
+[13:19:57] App Launched. Version: 1.11
+[13:19:58] Attempting to start server on port 27345
+[13:19:58] Server listening on port 27345
+[13:21:26] Photos Authorization: 3
+[13:21:28] Contacts Authorization: true
+[13:21:36] New connection received
+[13:21:36] GET /contacts?query=Mary [456 bytes]
+[13:21:36] Searching contacts for: 'Mary'
+[13:21:38] DEBUG: Match found: Moisés Gramary Barbosa
+[13:21:38] DEBUG: Match found: Pontevedra-rest. Asturia Cumple 2013 38 Mary
+[13:21:38] DEBUG: Match found: aa Santaclara
+[13:21:38] DEBUG: Match found: Suegros - Casa Mary
+[13:21:38] DEBUG: Match found: Mary Padres
+[13:21:38] DEBUG: Match found: Mary Banda Musica Bueu
+[13:21:38] DEBUG: Match found: Repair Your Phone Pontevedra Iphone Mary
+[13:21:38] DEBUG: Match found: Trini prima mary
+[13:21:38] DEBUG: Match found: Irene Hija De Mary Luz
+[13:21:38] Found 9 candidates
+[13:21:41] New connection received
+[13:21:41] OPTIONS /contact [480 bytes]
+[13:21:41] Handling OPTIONS for CORS
+[13:21:41] New connection received
+[13:21:41] POST /contact [588 bytes]
+[13:21:41] Body extracted (91 chars): {"name":"Mary","phone":"+34630864453","id":"9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson"}
+[13:21:41] Received contact update/link for: Mary
+[13:21:41] DEBUG: upsertContact called with data: ["name": Mary, "id": 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson, "phone": +34630864453]
+[13:21:41] DEBUG: Searching by ID: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[13:21:41] DEBUG: Found by ID
+[13:21:41] DEBUG: Executing CNSaveRequest...
+[13:21:41] DEBUG: Save FAILED: Error Domain=NSCocoaErrorDomain Code=134092 "(null)" UserInfo={NSUnderlyingException=Unhandled error (NSCocoaErrorDomain, 134092) occurred during faulting and was thrown: Error Domain=NSCocoaErrorDomain Code=134092 "(null)", NSUnderlyingError=0xc9ccffc90 {Error Domain=NSCocoaErrorDomain Code=134092 "(null)"}}
+[13:21:41] WARNING: Proceeding despite save failure (likely Read-Only contact). Returning ID to valid link.
+[13:21:41] Success: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[13:26:45] App Launched. Version: 1.12
+[13:26:46] Attempting to start server on port 27345
+[13:26:46] Server listening on port 27345
+[13:27:40] Contacts Authorization: true
+[13:27:42] Photos Authorization: 3
+[13:27:51] New connection received
+[13:27:51] OPTIONS /contact [480 bytes]
+[13:27:51] Handling OPTIONS for CORS
+[13:27:51] New connection received
+[13:27:51] POST /contact [649 bytes]
+[13:27:51] Body extracted (151 chars): {"name":"Mary","phone":"+34630864453","email":"mariasantaclara@yahoo.com","birthday":"1975-11-30","id":"9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson"}
+[13:27:51] Received contact update/link for: Mary
+[13:27:51] DEBUG: upsertContact called with data: ["birthday": 1975-11-30, "id": 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson, "phone": +34630864453, "name": Mary, "email": mariasantaclara@yahoo.com]
+[13:27:51] DEBUG: Searching by ID: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[13:27:51] DEBUG: Found by ID
+[13:27:51] DEBUG: Container: Google, Type: 3, ID: AB4FBC3B-F93B-45C2-9942-BA27398449C8:ABAccount
+[13:27:51] DEBUG: Executing CNSaveRequest...
+[13:27:51] DEBUG: Save FAILED: Error Domain=NSCocoaErrorDomain Code=134092 "(null)" UserInfo={NSUnderlyingException=Unhandled error (NSCocoaErrorDomain, 134092) occurred during faulting and was thrown: Error Domain=NSCocoaErrorDomain Code=134092 "(null)", NSUnderlyingError=0x9c831c3c0 {Error Domain=NSCocoaErrorDomain Code=134092 "(null)"}}
+[13:27:51] WARNING: Proceeding despite save failure (likely Read-Only contact). Returning ID to valid link.
+[13:27:51] Success: 9798B382-1D40-4A6F-A9CC-FCDC8747E270:ABPerson
+[10:14:29] App Launched. Version: 1.12
+[10:14:32] Photos Authorization: 3
+[10:14:32] Contacts Authorization: true
+[10:14:32] Attempting to start server on port 27345
+[10:14:32] Server listening on port 27345
+[12:40:23] App Launched. Version: 1.12
+[12:40:24] Photos Authorization: 3
+[12:40:24] Contacts Authorization: true
+[12:40:24] Attempting to start server on port 27345
+[12:40:24] Server listening on port 27345

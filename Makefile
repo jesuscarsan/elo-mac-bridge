@@ -10,7 +10,13 @@ RESOURCES_DIR=$(CONTENTS_DIR)/Resources
 
 all: app
 
-build:
+bump-version:
+	@current_version=$$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" Info.plist); \
+	new_version=$$(echo $$current_version | awk -F. -v OFS=. '{$$NF += 1 ; print}'); \
+	/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $$new_version" Info.plist; \
+	echo "Bumped version to $$new_version"
+
+build: bump-version
 	swift build -c release
 
 app: build
@@ -25,4 +31,6 @@ clean:
 	rm -rf $(APP_BUNDLE)
 
 run: app
+	@echo "Killing existing instances..."
+	@pkill -9 -f "$(EXECUTABLE_NAME)" || true
 	open $(APP_BUNDLE)
