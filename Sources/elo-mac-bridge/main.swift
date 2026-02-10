@@ -44,7 +44,8 @@ class BridgeState: ObservableObject {
         print(logLine) // Keep stdout for Obsidian console too
         
         // Write to file
-        let fileURL = URL(fileURLWithPath: "/Users/joshua/my-docs/code/elo-mac-bridge/elo_bridge.log")
+        // TODO: move to elo.config.json
+        let fileURL = URL(fileURLWithPath: "/Users/joshua/my-docs/code/elo-mac-bridge/elo-bridge.log")
         if let data = (logLine + "\n").data(using: .utf8) {
             if FileManager.default.fileExists(atPath: fileURL.path) {
                 if let fileHandle = try? FileHandle(forWritingTo: fileURL) {
